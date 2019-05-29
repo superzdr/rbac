@@ -81,7 +81,7 @@
 				value=""/> -->
 		</javaClientGenerator>
 
-		<table tableName="employee" domainObjectName="Employee">
+		<table tableName="permission" domainObjectName="Permission">
 			<!--不使用驼峰表示法生成对应的属性-->
 			<property name="useActualColumnNames" value="false"/>
 			<property name="constructorBased" value="false" />
