@@ -2,10 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a186aa7-f6a8-4db4-ba53-f9e19a45dd12" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/wolfcode/rbac/mapper/RoleMapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cn/wolfcode/rbac/web/controller/RoleController.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wolfcode/rbac/web/controller/DepartmentController.class" afterPath="$PROJECT_DIR$/target/classes/cn/wolfcode/rbac/web/controller/DepartmentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/wolfcode/rbac/web/controller/EmployeeController.class" afterPath="$PROJECT_DIR$/target/classes/cn/wolfcode/rbac/web/controller/EmployeeController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Role.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Role.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IPermissionService.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IPermissionService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/PermissionServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/PermissionServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/RequiredPermission.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/RequiredPermission.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/DepartmentController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/DepartmentController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/EmployeeController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/EmployeeController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/PermissionController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/PermissionController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/RoleController.java" afterPath="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/RoleController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission/list.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission/list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" afterPath="$PROJECT_DIR$/target/classes/generatorConfig.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,94 +51,8 @@
       <file leaf-file-name="EmployeeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/EmployeeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1566">
-              <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/EmployeeServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1053">
-              <caret line="55" column="82" lean-forward="false" selection-start-line="55" selection-start-column="82" selection-end-line="55" selection-end-column="82" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#915#916#0" expanded="false" />
-                <element signature="e#960#961#0" expanded="false" />
-                <element signature="e#1010#1011#0" expanded="false" />
-                <element signature="e#1062#1063#0" expanded="false" />
-                <element signature="e#1115#1116#0" expanded="false" />
-                <element signature="e#1156#1157#0" expanded="false" />
-                <element signature="e#1776#1777#0" expanded="false" />
-                <element signature="e#1832#1833#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2565">
-              <caret line="95" column="65" lean-forward="false" selection-start-line="95" selection-start-column="65" selection-end-line="95" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="945">
-              <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-              <folding>
-                <marker date="1558966343943" expanded="true" signature="1058:1099" ph="delete from " />
-                <marker date="1558966343943" expanded="true" signature="1232:1371" ph="insert into employee... " />
-                <marker date="1558966343943" expanded="true" signature="1475:1660" ph="update emplo... " />
-                <marker date="1558966343943" expanded="true" signature="1771:1863" ph="select id, n... employee" />
-                <marker date="1558966343943" expanded="true" signature="1934:2005" ph="select id, n... employee" />
-                <marker date="1558966343943" expanded="true" signature="2089:2126" ph="select c fro... employee" />
-                <marker date="1558966343943" expanded="true" signature="2089:2179" ph="select count... employee" />
-                <marker date="1558966343943" expanded="true" signature="2296:2514" ph="select id, n... employee" />
-                <marker date="1558966343943" expanded="true" signature="2905:2930" ph="INSERT INTO employee_role... " />
-                <marker date="1558966343943" expanded="true" signature="2905:2953" ph="INSERT INTO employee_role... " />
-                <marker date="1558966343943" expanded="true" signature="3011:3060" ph="DELETE FROM " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-567">
-              <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="generatorConfig.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="83" column="66" lean-forward="false" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+            <state relative-caret-position="-555">
+              <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -130,32 +61,118 @@
       <file leaf-file-name="PermissionMapper.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/PermissionMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="405">
+              <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PermissionMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/PermissionMapper.xml">
+      <file leaf-file-name="PermissionController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/PermissionController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="565">
-              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+            <state relative-caret-position="49">
+              <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
-                <marker date="1559102831408" expanded="true" signature="513:556" ph="delete from " />
-                <marker date="1559102831408" expanded="true" signature="689:766" ph="insert into permission... " />
-                <marker date="1559102831408" expanded="true" signature="838:885" ph="select id, n... permission" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="RoleMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4401">
-              <caret line="163" column="0" lean-forward="false" selection-start-line="163" selection-start-column="0" selection-end-line="163" selection-end-column="0" />
+            <state relative-caret-position="1377">
+              <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+              <folding>
+                <marker date="1559119388298" expanded="true" signature="634:671" ph="delete from " />
+                <marker date="1559119388298" expanded="true" signature="799:854" ph="insert into role... " />
+                <marker date="1559119388298" expanded="true" signature="952:1025" ph="update role " />
+                <marker date="1559119388298" expanded="true" signature="1135:1197" ph="select id, n... role" />
+                <marker date="1559119388298" expanded="true" signature="1267:1300" ph="select id, n... role" />
+                <marker date="1559119388298" expanded="true" signature="1382:1413" ph="select count... role" />
+                <marker date="1559119388298" expanded="true" signature="1503:1571" ph="select id, n... role" />
+                <marker date="1559119388298" expanded="true" signature="1677:1800" ph="select r.id,... employee_role" />
+                <marker date="1559119388298" expanded="true" signature="1911:2006" ph="SELECT FROM role_permission" />
+                <marker date="1559119388298" expanded="true" signature="1911:2007" ph="SELECT FROM role_permission" />
+                <marker date="1559119388298" expanded="true" signature="1911:2040" ph="SELECT FROM role_permission" />
+                <marker date="1559119388298" expanded="true" signature="1911:2053" ph="SELECT p.id,... role_permission" />
+                <marker date="1559119388298" expanded="true" signature="2120:2167" ph="DELETE FROM " />
+                <marker date="1559119388298" expanded="true" signature="2226:2276" ph="INSERT INTO role_permission... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/RoleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission/list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="783">
+              <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="83" column="53" lean-forward="true" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
+              <folding>
+                <marker date="1559120414823" expanded="true" signature="1058:1099" ph="delete from " />
+                <marker date="1559120414823" expanded="true" signature="1232:1371" ph="insert into employee... " />
+                <marker date="1559120414823" expanded="true" signature="1475:1660" ph="update emplo... " />
+                <marker date="1559120414823" expanded="true" signature="1771:1863" ph="select id, n... employee" />
+                <marker date="1559120414823" expanded="true" signature="1934:2005" ph="select id, n... employee" />
+                <marker date="1559120414823" expanded="true" signature="2089:2126" ph="select c fro... employee" />
+                <marker date="1559120414823" expanded="true" signature="2089:2179" ph="select count... employee" />
+                <marker date="1559120414823" expanded="true" signature="2296:2514" ph="select id, n... employee" />
+                <marker date="1559120414823" expanded="true" signature="2905:2930" ph="INSERT INTO employee_role... " />
+                <marker date="1559120414823" expanded="true" signature="2905:2953" ph="INSERT INTO employee_role... " />
+                <marker date="1559120414823" expanded="true" signature="3011:3060" ph="DELETE FROM " />
+                <marker date="1559120414823" expanded="true" signature="3129:3174" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoleMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="363">
+              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -169,6 +186,7 @@
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -178,21 +196,25 @@
       <find>rol</find>
       <find>删除</find>
       <find>角色</find>
-      <find>Role</find>
       <find>Department</find>
       <find>department</find>
-      <find>role</find>
       <find>submitBtn</find>
       <find>btn btn-primary</find>
       <find>编辑</find>
+      <find>employee</find>
+      <find>role</find>
+      <find>editForm</find>
+      <find>Role</find>
     </findStrings>
     <replaceStrings>
       <replace>rbac</replace>
       <replace>Role</replace>
       <replace>部门</replace>
-      <replace>role</replace>
       <replace>Employee</replace>
       <replace>employee</replace>
+      <replace>permission</replace>
+      <replace>role</replace>
+      <replace>Permission</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -213,16 +235,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IDepartmentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/query/PageResult.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/DepartmentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/query/QueryObject.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/DepartmentMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IRoleService.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/RoleServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/input.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/department/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/DepartmentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/DepartmentMapper.xml" />
@@ -234,15 +252,26 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/list.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IPermissionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/RequiredPermission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/DepartmentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/EmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission/list.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Permission.java" />
         <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/PermissionMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/PermissionController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Role.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/RoleController.java" />
       </list>
     </option>
   </component>
@@ -332,7 +361,9 @@
     <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -359,6 +390,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="target" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,6 +448,202 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="role" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="permission" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="employee" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="department" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -451,6 +692,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -536,7 +807,71 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rbac" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -546,7 +881,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.AdvancedConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
@@ -570,9 +905,9 @@
       <recent name="cn.wolfcode.rbac.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Albert\IdeaProjects\rbac\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\Albert\IdeaProjects\rbac\src\main\webapp\WEB-INF\views\role" />
       <recent name="C:\Users\Albert\IdeaProjects\rbac\src\main\webapp\WEB-INF\views\employee" />
-      <recent name="C:\Users\Albert\IdeaProjects\rbac\src\main\webapp\WEB-INF\views" />
       <recent name="C:\Users\Albert\IdeaProjects\rbac\src\main\java\cn\wolfcode\rbac\query" />
       <recent name="C:\Users\Albert\IdeaProjects\rbac\src\main\webapp\WEB-INF\views\department" />
     </key>
@@ -1163,8 +1498,16 @@
       <workItem from="1558929983404" duration="18178000" />
       <workItem from="1558955730919" duration="11640000" />
       <workItem from="1559021777908" duration="3846000" />
-      <workItem from="1559093221091" duration="2047000" />
+      <workItem from="1559093221091" duration="15121000" />
     </task>
+    <task id="LOCAL-00001" summary="createt PermissionMapper">
+      <created>1559102927399</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559102927400</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1191,7 +1534,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42276000" />
+    <option name="totallyTimeSpent" value="55350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
@@ -1200,7 +1543,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977476" sideWeight="0.5107296" order="15" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14538626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14538626" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1209,18 +1552,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5022523" sideWeight="0.4892704" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30405405" sideWeight="0.4892704" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2849099" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2849099" sideWeight="0.49356222" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22103004" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1555794" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1240,6 +1583,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="createt PermissionMapper" />
+    <option name="LAST_COMMIT_MESSAGE" value="createt PermissionMapper" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -1249,54 +1596,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IDepartmentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/query/QueryObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/query/PageResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/DepartmentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="55" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1348,6 +1647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="278">
           <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1355,6 +1655,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <folding>
+            <element signature="e#271#272#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1368,13 +1672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-640">
-          <caret line="14" column="24" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IRoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1382,14 +1679,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1439,13 +1728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/DepartmentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="17" column="39" lean-forward="true" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/common/link.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1458,6 +1740,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="205">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1470,13 +1755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Department.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -1485,25 +1763,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="152" column="9" lean-forward="false" selection-start-line="152" selection-start-column="9" selection-end-line="152" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/query/RoleRelation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1516,48 +1779,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1161">
-          <caret line="43" column="41" lean-forward="false" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-          <folding>
-            <marker date="1558964474802" expanded="true" signature="485:522" ph="delete from " />
-            <marker date="1558964474802" expanded="true" signature="649:704" ph="insert into role... " />
-            <marker date="1558964474802" expanded="true" signature="802:875" ph="update role " />
-            <marker date="1558964474802" expanded="true" signature="985:1039" ph="select id, n... role" />
-            <marker date="1558964474802" expanded="true" signature="1109:1142" ph="select id, n... role" />
-            <marker date="1558964474802" expanded="true" signature="1224:1255" ph="select count... role" />
-            <marker date="1558964474802" expanded="true" signature="1345:1413" ph="select id, n... role" />
-            <marker date="1558964474802" expanded="true" signature="1519:1642" ph="select r.id,... employee_role" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IEmployeeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1567,36 +1793,6 @@
           <caret line="24" column="29" lean-forward="false" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/EmployeeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1566">
-          <caret line="70" column="48" lean-forward="false" selection-start-line="70" selection-start-column="48" selection-end-line="70" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="945">
-          <caret line="35" column="23" lean-forward="false" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-          <folding>
-            <marker date="1558966343943" expanded="true" signature="1058:1099" ph="delete from " />
-            <marker date="1558966343943" expanded="true" signature="1232:1371" ph="insert into employee... " />
-            <marker date="1558966343943" expanded="true" signature="1475:1660" ph="update emplo... " />
-            <marker date="1558966343943" expanded="true" signature="1771:1863" ph="select id, n... employee" />
-            <marker date="1558966343943" expanded="true" signature="1934:2005" ph="select id, n... employee" />
-            <marker date="1558966343943" expanded="true" signature="2089:2126" ph="select c fro... employee" />
-            <marker date="1558966343943" expanded="true" signature="2089:2179" ph="select count... employee" />
-            <marker date="1558966343943" expanded="true" signature="2296:2514" ph="select id, n... employee" />
-            <marker date="1558966343943" expanded="true" signature="2905:2930" ph="INSERT INTO employee_role... " />
-            <marker date="1558966343943" expanded="true" signature="2905:2953" ph="INSERT INTO employee_role... " />
-            <marker date="1558966343943" expanded="true" signature="3011:3060" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -1646,7 +1842,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/employee/input.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-567">
-          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <caret line="169" column="0" lean-forward="false" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1659,22 +1855,203 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/PermissionMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/util/RequiredPermission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/IPermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Permission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/DepartmentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="52" column="5" lean-forward="false" selection-start-line="52" selection-start-column="5" selection-end-line="52" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/domain/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="604">
+          <caret line="46" column="46" lean-forward="false" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1559103199543" expanded="false" signature="622:633" ph=" { " />
+            <marker date="1559103199543" expanded="false" signature="663:669" ph=" }" />
+            <marker date="1559103199543" expanded="false" signature="724:735" ph=" { " />
+            <marker date="1559103199543" expanded="false" signature="761:767" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/PermissionMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="565">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state relative-caret-position="-27">
+          <caret line="5" column="47" lean-forward="true" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
           <folding>
-            <marker date="1559102831408" expanded="true" signature="513:556" ph="delete from " />
-            <marker date="1559102831408" expanded="true" signature="689:766" ph="insert into permission... " />
-            <marker date="1559102831408" expanded="true" signature="838:885" ph="select id, n... permission" />
+            <marker date="1559107425334" expanded="true" signature="525:568" ph="delete from " />
+            <marker date="1559107425334" expanded="true" signature="702:779" ph="insert into permission... " />
+            <marker date="1559107425334" expanded="true" signature="851:898" ph="select id, n... permission" />
+            <marker date="1559107425334" expanded="true" signature="981:1018" ph="select count... permission" />
+            <marker date="1559107425334" expanded="true" signature="1118:1200" ph="select id, n... permission" />
+            <marker date="1559107425334" expanded="true" signature="1279:1320" ph="select expre... permission" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="83" column="53" lean-forward="true" selection-start-line="83" selection-start-column="53" selection-end-line="83" selection-end-column="53" />
+          <folding>
+            <marker date="1559120414823" expanded="true" signature="1058:1099" ph="delete from " />
+            <marker date="1559120414823" expanded="true" signature="1232:1371" ph="insert into employee... " />
+            <marker date="1559120414823" expanded="true" signature="1475:1660" ph="update emplo... " />
+            <marker date="1559120414823" expanded="true" signature="1771:1863" ph="select id, n... employee" />
+            <marker date="1559120414823" expanded="true" signature="1934:2005" ph="select id, n... employee" />
+            <marker date="1559120414823" expanded="true" signature="2089:2126" ph="select c fro... employee" />
+            <marker date="1559120414823" expanded="true" signature="2089:2179" ph="select count... employee" />
+            <marker date="1559120414823" expanded="true" signature="2296:2514" ph="select id, n... employee" />
+            <marker date="1559120414823" expanded="true" signature="2905:2930" ph="INSERT INTO employee_role... " />
+            <marker date="1559120414823" expanded="true" signature="2905:2953" ph="INSERT INTO employee_role... " />
+            <marker date="1559120414823" expanded="true" signature="3011:3060" ph="DELETE FROM " />
+            <marker date="1559120414823" expanded="true" signature="3129:3174" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/permission/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/role/input.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/EmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-555">
+          <caret line="43" column="48" lean-forward="false" selection-start-line="43" selection-start-column="48" selection-end-line="43" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/mapper/PermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/PermissionController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/wolfcode/rbac/web/controller/RoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/cn/wolfcode/rbac/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="51" column="36" lean-forward="false" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
+          <folding>
+            <marker date="1559119388298" expanded="true" signature="634:671" ph="delete from " />
+            <marker date="1559119388298" expanded="true" signature="799:854" ph="insert into role... " />
+            <marker date="1559119388298" expanded="true" signature="952:1025" ph="update role " />
+            <marker date="1559119388298" expanded="true" signature="1135:1197" ph="select id, n... role" />
+            <marker date="1559119388298" expanded="true" signature="1267:1300" ph="select id, n... role" />
+            <marker date="1559119388298" expanded="true" signature="1382:1413" ph="select count... role" />
+            <marker date="1559119388298" expanded="true" signature="1503:1571" ph="select id, n... role" />
+            <marker date="1559119388298" expanded="true" signature="1677:1800" ph="select r.id,... employee_role" />
+            <marker date="1559119388298" expanded="true" signature="1911:2006" ph="SELECT FROM role_permission" />
+            <marker date="1559119388298" expanded="true" signature="1911:2007" ph="SELECT FROM role_permission" />
+            <marker date="1559119388298" expanded="true" signature="1911:2040" ph="SELECT FROM role_permission" />
+            <marker date="1559119388298" expanded="true" signature="1911:2053" ph="SELECT p.id,... role_permission" />
+            <marker date="1559119388298" expanded="true" signature="2120:2167" ph="DELETE FROM " />
+            <marker date="1559119388298" expanded="true" signature="2226:2276" ph="INSERT INTO role_permission... " />
           </folding>
         </state>
       </provider>

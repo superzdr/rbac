@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>角色管理</title>
+    <title>权限管理</title>
     <%@ include file="/WEB-INF/views/common/link.jsp" %>
 
 </head>
@@ -13,21 +13,21 @@
 <div class="wrapper">
     <%@ include file="/WEB-INF/views/common/navbar.jsp" %>
     <!--菜单回显-->
-    <c:set var="currentMenu" value="role"/>
+    <c:set var="currentMenu" value="permission"/>
     <%@ include file="/WEB-INF/views/common/menu.jsp" %>
     <div class="content-wrapper">
         <section class="content-header">
-            <h1>角色管理</h1>
+            <h1>权限管理</h1>
         </section>
         <section class="content">
             <div class="box">
                 <!--高级查询--->
                 <div style="margin: 10px;">
                     <!--高级查询--->
-                    <form class="form-inline" id="searchForm" action="/role/list.do" method="post">
+                    <form class="form-inline" id="searchForm" action="/permission/list.do" method="post">
                         <input type="hidden" name="currentPage" id="currentPage">
-                        <a href="javascript:;" data-url="/role/input.do" class="btn btn-success btn_redirect">
-                            <span class="glyphicon glyphicon-plus"></span> 添加</a>
+                        <a href="javascript:;" data-url="/permission/reload.do" class="btn btn-success btn_redirect">
+                            <span class="glyphicon glyphicon-refresh"></span> 重新加载权限</a>
                     </form>
 
                     <table class="table table-striped table-hover">
@@ -43,12 +43,12 @@
                             <tr>
                                 <td>${vs.count}</td>
                                 <td>${entity.name}</td>
-                                <td>${entity.sn}</td>
+                                <td>${entity.expression}</td>
                                 <td>
-                                    <a class="btn btn-info btn-xs btn_redirect" href="/role/input.do?id=${entity.id}">
+                                    <a class="btn btn-info btn-xs btn_redirect" href="/permission/input.do?id=${entity.id}">
                                         <span class="glyphicon glyphicon-pencil"></span> 编辑
                                     </a>
-                                    <a href="/role/delete.do?id=${entity.id}"
+                                    <a href="/permission/delete.do?id=${entity.id}"
                                        class="btn btn-danger btn-xs btn_delete">
                                         <span class="glyphicon glyphicon-trash"></span> 删除
                                     </a>

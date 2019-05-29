@@ -1,5 +1,14 @@
 package cn.wolfcode.rbac.domain;
 
+import lombok.*;
+
+import java.util.List;
+
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
+@ToString
 public class Role {
     private Long id;
 
@@ -7,27 +16,5 @@ public class Role {
 
     private String sn;
 
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getSn() {
-        return sn;
-    }
-
-    public void setSn(String sn) {
-        this.sn = sn;
-    }
+    private List<Permission> permissions;
 }

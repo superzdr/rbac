@@ -5,11 +5,14 @@
     <id column="id" property="id" />
     <result column="name" property="name" />
     <result column="sn" property="sn" />
+    <collection property="permissions" ofType="cn.wolfcode.rbac.domain.Permission" column="id"
+    select="selectPermissionWithRoleId"></collection>
   </resultMap>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
     delete from role
     where id = #{id}
   </delete>
+
   <insert id="insert" parameterType="cn.wolfcode.rbac.domain.Role" useGeneratedKeys="true" keyProperty="id" >
     insert into role (name, sn)
     values (#{name}, #{sn})
@@ -21,8 +24,8 @@
     where id = #{id}
   </update>
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
-    select id, name, sn
-    from role
+    select r.id, r.name, r.sn
+    from role r
     where id = #{id}
   </select>
   <select id="selectAll" resultMap="BaseResultMap" >
@@ -45,4 +48,20 @@
     on e.role_id = r.id
     WHERE e.employee_id = #{id}
   </select>
+  
+  <select id="selectPermissionWithRoleId" resultType="cn.wolfcode.rbac.domain.Permission">
+    SELECT p.id, p.name, p.expression
+    FROM role_permission rp LEFT JOIN permission p
+    ON rp.permission_id = p.id
+    WHERE rp.role_id=#{id}
+  </select>
+
+  <delete id="deleteFromRolePermissionByRoleId">
+    DELETE FROM role_permission WHERE role_id=#{id}
+  </delete>
+
+
+  <insert id="insetIntoRolePermission">
+    INSERT INTO role_permission VALUES (#{rid},#{pid})
+  </insert>
 </mapper>

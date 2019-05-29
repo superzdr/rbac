@@ -24,4 +24,6 @@ public interface EmployeeMapper {
     int insertIntoEmployeeRole(RoleRelation rl);
 
     int deletFromEmployeeRole(Long id);
+
+    int deleteFromEmployeeRoleByRole(Long id);
 }

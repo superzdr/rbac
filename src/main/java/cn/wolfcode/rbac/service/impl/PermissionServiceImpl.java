@@ -1,10 +1,10 @@
 package cn.wolfcode.rbac.service.impl;
 
-import cn.wolfcode.rbac.domain.Role;
-import cn.wolfcode.rbac.mapper.RoleMapper;
+import cn.wolfcode.rbac.domain.Permission;
+import cn.wolfcode.rbac.mapper.PermissionMapper;
 import cn.wolfcode.rbac.query.PageResult;
 import cn.wolfcode.rbac.query.QueryObject;
-import cn.wolfcode.rbac.service.IRoleService;
+import cn.wolfcode.rbac.service.IPermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,35 +14,25 @@ import java.util.List;
  * Created by Albert on 2019/5/27.
  */
 @Service
-public class PermissionServiceImpl implements IRoleService {
+public class PermissionServiceImpl implements IPermissionService {
     @Autowired
-    private RoleMapper mapper;
-    @Override
-    public void saveOrUpdate(Role entity) {
-        if(entity.getId() == null){
-            mapper.insert(entity);
-        }else{
-            mapper.updateByPrimaryKey(entity);
-        }
-    }
+    private PermissionMapper mapper;
+
 
     @Override
     public void delete(Long id) {
         mapper.deleteByPrimaryKey(id);
     }
 
-    @Override
-    public Role get(Long id) {
-        return mapper.selectByPrimaryKey(id);
-    }
+
 
     @Override
-    public List<Role> listAll() {
+    public List<Permission> listAll() {
         return mapper.selectAll();
     }
 
     @Override
-    public PageResult<Role> query(QueryObject qo) {
+    public PageResult<Permission> query(QueryObject qo) {
         //totalpage
         System.out.println("in query");
         System.out.println(qo);
@@ -51,10 +41,10 @@ public class PermissionServiceImpl implements IRoleService {
 
         //totalpage !=0 pageResult
         if(count == 0){
-            return new PageResult<Role>(qo.getCurrentPage(),qo.getPageSize());
+            return new PageResult<Permission>(qo.getCurrentPage(),qo.getPageSize());
         }
 
-        List<Role> list = mapper.queryForList(qo);
-        return new PageResult<Role>(list,qo.getCurrentPage(),qo.getPageSize(),count);
+        List<Permission> list = mapper.queryForList(qo);
+        return new PageResult<Permission>(list,qo.getCurrentPage(),qo.getPageSize(),count);
     }
 }

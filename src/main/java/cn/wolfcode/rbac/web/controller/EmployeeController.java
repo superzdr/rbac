@@ -6,6 +6,7 @@ import cn.wolfcode.rbac.query.RoleRelation;
 import cn.wolfcode.rbac.service.IDepartmentService;
 import cn.wolfcode.rbac.service.IEmployeeService;
 import cn.wolfcode.rbac.service.IRoleService;
+import cn.wolfcode.rbac.util.RequiredPermission;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -30,6 +31,7 @@ public class EmployeeController {
     private IRoleService roleService;
 
     @RequestMapping("/list")
+    @RequiredPermission({"员工列表","employee:list"})
     public String list(Model model,@ModelAttribute("qo") EmployeeQueryObject qo){
         //System.out.println(qo);
         //System.out.println(departmentService.listAll());
@@ -39,6 +41,7 @@ public class EmployeeController {
     }
 
     @RequestMapping("/delete")
+    @RequiredPermission({"员工删除","employee:delete"})
     public String delete(Model model,Long id){
         if (id != null){
             service.deletFromEmployeeRole(id);

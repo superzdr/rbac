@@ -1,27 +1,38 @@
 package cn.wolfcode.rbac.web.controller;
 
-import cn.wolfcode.rbac.domain.Role;
+import cn.wolfcode.rbac.domain.Permission;
+import cn.wolfcode.rbac.mapper.PermissionMapper;
 import cn.wolfcode.rbac.query.QueryObject;
-import cn.wolfcode.rbac.service.IRoleService;
+import cn.wolfcode.rbac.service.IPermissionService;
+import cn.wolfcode.rbac.util.RequiredPermission;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.lang.reflect.Method;
+import java.util.Collection;
+import java.util.List;
+import java.util.Map;
 
 /**
  * Created by Albert on 2019/5/27.
  */
 @Controller
-@RequestMapping("/role")
+@RequestMapping("/permission")
 public class PermissionController {
     @Autowired
-    private IRoleService service;
+    private IPermissionService service;
+
+    @Autowired
+    private PermissionMapper mapper;
 
     @RequestMapping("/list")
     public String list(Model model, QueryObject qo){
         System.out.println(qo);
         model.addAttribute("result",service.query(qo));
-        return "role/list";
+        return "permission/list";
     }
 
     @RequestMapping("/delete")
@@ -29,21 +40,43 @@ public class PermissionController {
         if (id != null){
             service.delete(id);
         }
-        return "redirect:/role/list.do";
+        return "redirect:/permission/list.do";
     }
+    @Autowired
+    private ApplicationContext ctx;
 
-    @RequestMapping("/input")
-    public String input(Model model,Long id){
-        if(id != null){
-            Role role = service.get(id);
-            model.addAttribute("d",role);
+    @RequestMapping("/reload")
+    public String reload(Model model){
+        //开始前先从数据库中读取数据
+        List<String> existPermission = mapper.selectExpression();
+
+        //
+        Map<String, Object> beansWithAnnotation = ctx.getBeansWithAnnotation(Controller.class);
+        Collection<Object> values = beansWithAnnotation.values();
+        for (Object bean:values
+             ) {
+            Method[] declaredMethods = bean.getClass().getDeclaredMethods();
+            for (Method method: declaredMethods
+                 ) {
+                if (method.isAnnotationPresent(RequiredPermission.class)){
+                    RequiredPermission annotation = method.getAnnotation(RequiredPermission.class);
+                    String[] value = annotation.value();
+                    Permission permission = new Permission();
+                    permission.setName(value[0]);
+                    permission.setExpression(value[1]);
+
+                    if(!existPermission.contains(permission.getExpression())){
+                        mapper.insert(permission);
+                    }
+
+                }
+            }
+
+
         }
-        return "role/input";
+        return "redirect:/permission/list.do";
     }
 
-    @RequestMapping("/saveOrUpdate")
-    public String saveOrUpdate(Model model,Role role){
-       service.saveOrUpdate(role);
-       return "redirect:/role/list.do";
-    }
+
+
 }

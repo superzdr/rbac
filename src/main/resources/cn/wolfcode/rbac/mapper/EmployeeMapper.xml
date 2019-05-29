@@ -80,4 +80,9 @@
     DELETE FROM employee_role WHERE employee_id=#{id}
   </delete>
 
+    <delete id="deleteFromEmployeeRoleByRole">
+        DELETE FROM employee_role WHERE role_id=#{id}
+    </delete>
+
+
 </mapper>
