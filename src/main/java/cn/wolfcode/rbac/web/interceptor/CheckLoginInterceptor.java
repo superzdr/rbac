@@ -1,0 +1,23 @@
+package cn.wolfcode.rbac.web.interceptor;
+
+import cn.wolfcode.rbac.domain.Employee;
+import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Created by Albert on 2019/5/30.
+ */
+public class CheckLoginInterceptor extends HandlerInterceptorAdapter {
+    @Override
+    public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        Employee employeeInSession = (Employee) request.getSession().getAttribute("EMPLOYEE_IN_SESSION");
+        if(employeeInSession == null){
+            response.sendRedirect("/login.jsp");
+            return false;
+        }else {
+            return true;
+        }
+    }
+}

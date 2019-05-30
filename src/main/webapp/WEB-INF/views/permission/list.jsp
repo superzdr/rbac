@@ -45,9 +45,6 @@
                                 <td>${entity.name}</td>
                                 <td>${entity.expression}</td>
                                 <td>
-                                    <a class="btn btn-info btn-xs btn_redirect" href="/permission/input.do?id=${entity.id}">
-                                        <span class="glyphicon glyphicon-pencil"></span> 编辑
-                                    </a>
                                     <a href="/permission/delete.do?id=${entity.id}"
                                        class="btn btn-danger btn-xs btn_delete">
                                         <span class="glyphicon glyphicon-trash"></span> 删除

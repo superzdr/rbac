@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,9 +10,12 @@
     <jsp:include page="link.jsp"/>
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
+<%@ include file="/WEB-INF/views/common/navbar.jsp" %>
 <div class="wrapper">
-    <#include "navbar.jsp">
-    <#include "menu.jsp">
+
+        <!--菜单回显-->
+        <c:set var="currentMenu" value="department"/>
+        <%@ include file="/WEB-INF/views/common/menu.jsp" %>
     <div class="content-wrapper">
         <section class="content-header">
             <h1>无操作权限</h1>

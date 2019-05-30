@@ -60,6 +60,7 @@
         limit #{start},#{pageSize}
     </select>
 
+
     <sql id="where_sql">
         <where>
             <if test="keyword != null">
@@ -83,6 +84,17 @@
     <delete id="deleteFromEmployeeRoleByRole">
         DELETE FROM employee_role WHERE role_id=#{id}
     </delete>
+
+    <select id="selectByUsenameAndPassword" resultType="cn.wolfcode.rbac.domain.Employee">
+        SELECT * FROM employee WHERE name=#{username} and password=#{password}
+    </select>
+    <select id="selectExpressionsByEmployeeId" resultType="java.lang.String">
+        SELECT DISTINCT p.expression
+        FROM employee e LEFT JOIN employee_role er ON e.id=er.employee_id
+        LEFT JOIN role_permission rp ON er.role_id=rp.role_id
+        LEFT JOIN permission p ON rp.permission_id=p.id
+        WHERE e.id=#{id}
+    </select>
 
 
 </mapper>

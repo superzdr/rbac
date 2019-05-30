@@ -7,9 +7,14 @@ import cn.wolfcode.rbac.query.QueryObject;
 import cn.wolfcode.rbac.query.RoleRelation;
 import cn.wolfcode.rbac.service.IEmployeeService;
 import cn.wolfcode.rbac.service.IEmployeeService;
+import cn.wolfcode.rbac.util.LogicException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.context.request.RequestAttributes;
+import org.springframework.web.context.request.RequestContextHolder;
+import org.springframework.web.context.request.ServletRequestAttributes;
 
+import javax.servlet.http.HttpSession;
 import java.util.List;
 
 /**
@@ -68,5 +73,18 @@ public class EmployeeServiceImpl implements IEmployeeService {
     @Override
     public int deletFromEmployeeRole(Long id) {
         return mapper.deletFromEmployeeRole(id);
+    }
+
+    @Override
+    public void login(String username, String password) {
+        Employee employee = mapper.selectByUsenameAndPassword(username, password);
+        //System.out.println(mapper.selectExpressionsByEmployeeId(employee.getId()));
+        if(employee == null){
+            throw new LogicException("用户名或密码错误");
+        }
+        ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        HttpSession session = requestAttributes.getRequest().getSession();
+        session.setAttribute("EMPLOYEE_IN_SESSION",employee);
+        session.setAttribute("EXPRESSION_IN_SESSION",mapper.selectExpressionsByEmployeeId(employee.getId()));
     }
 }

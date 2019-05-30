@@ -21,4 +21,6 @@ public interface IEmployeeService {
     int insertIntoEmployeeRole(RoleRelation rl);
 
     int deletFromEmployeeRole(Long id);
+
+    void login(String username, String password);
 }

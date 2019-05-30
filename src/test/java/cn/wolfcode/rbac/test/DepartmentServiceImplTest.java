@@ -2,6 +2,7 @@ package cn.wolfcode.rbac.test;
 
 import cn.wolfcode.rbac.domain.Department;
 import cn.wolfcode.rbac.service.IDepartmentService;
+import cn.wolfcode.rbac.service.IEmployeeService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +39,13 @@ public class DepartmentServiceImplTest {
     public void listAll() throws Exception {
         System.out.println(service.getClass());
         System.out.println(service.listAll());
+    }
+
+    @Autowired
+    private IEmployeeService employeeService;
+    @Test
+    public void testEmp() throws Exception{
+        employeeService.login("赵总","1");
     }
 
 }
