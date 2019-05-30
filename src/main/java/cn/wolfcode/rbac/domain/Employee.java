@@ -5,8 +5,8 @@ import lombok.*;
 import java.util.List;
 
 @ToString@AllArgsConstructor@NoArgsConstructor@Getter@Setter
-public class Employee {
-    private Long id;
+public class Employee extends Basement{
+    //private Long id;
 
     private String name;
 

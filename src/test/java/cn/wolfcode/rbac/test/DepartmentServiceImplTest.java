@@ -21,8 +21,8 @@ public class DepartmentServiceImplTest {
     private IDepartmentService service;
     @Test
     public void saveOrUpdate() throws Exception {
-        Department dept = new Department(6L,"销售部","xs");
-        service.saveOrUpdate(dept);
+        //Department dept = new Department(6L,"销售部","xs");
+        //service.saveOrUpdate(dept);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class DepartmentServiceImplTest {
     private IEmployeeService employeeService;
     @Test
     public void testEmp() throws Exception{
-        employeeService.login("赵总","1");
+        //employeeService.login("赵总","1");
     }
 
 }

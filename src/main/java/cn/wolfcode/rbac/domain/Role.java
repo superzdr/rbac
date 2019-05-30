@@ -9,8 +9,8 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Role {
-    private Long id;
+public class Role extends Basement{
+    //private Long id;
 
     private String name;
 

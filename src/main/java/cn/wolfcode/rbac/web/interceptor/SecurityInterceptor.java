@@ -2,6 +2,7 @@ package cn.wolfcode.rbac.web.interceptor;
 
 import cn.wolfcode.rbac.domain.Employee;
 import cn.wolfcode.rbac.util.RequiredPermission;
+import cn.wolfcode.rbac.util.UserContext;
 import org.springframework.web.method.HandlerMethod;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -16,7 +17,8 @@ import java.util.List;
 public class SecurityInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        Employee employeeInSession = (Employee) request.getSession().getAttribute("EMPLOYEE_IN_SESSION");
+        //Employee employeeInSession = (Employee) request.getSession().getAttribute("EMPLOYEE_IN_SESSION");
+        Employee employeeInSession = UserContext.getEmployeeInSession();
         if(employeeInSession.isAdmin()){
             return true;
         }
@@ -29,7 +31,8 @@ public class SecurityInterceptor extends HandlerInterceptorAdapter {
         }
 
         RequiredPermission annotation = method.getAnnotation(RequiredPermission.class);
-        List<String> expressionInSession = (List<String>) request.getSession().getAttribute("EXPRESSION_IN_SESSION");
+        //List<String> expressionInSession = (List<String>) request.getSession().getAttribute("EXPRESSION_IN_SESSION");
+        List<String> expressionInSession = UserContext.getExpressionInSession();
         if(expressionInSession.contains(annotation.value()[1])){
             return true;
         }

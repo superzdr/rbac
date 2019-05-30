@@ -8,6 +8,7 @@ import cn.wolfcode.rbac.query.RoleRelation;
 import cn.wolfcode.rbac.service.IEmployeeService;
 import cn.wolfcode.rbac.service.IEmployeeService;
 import cn.wolfcode.rbac.util.LogicException;
+import cn.wolfcode.rbac.util.UserContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.request.RequestAttributes;
@@ -82,9 +83,12 @@ public class EmployeeServiceImpl implements IEmployeeService {
         if(employee == null){
             throw new LogicException("用户名或密码错误");
         }
-        ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-        HttpSession session = requestAttributes.getRequest().getSession();
-        session.setAttribute("EMPLOYEE_IN_SESSION",employee);
-        session.setAttribute("EXPRESSION_IN_SESSION",mapper.selectExpressionsByEmployeeId(employee.getId()));
+       /* ServletRequestAttributes requestAttributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
+        HttpSession session = requestAttributes.getRequest().getSession();*/
+        HttpSession session = UserContext.getSession(); //使用重构后的方法
+        //session.setAttribute("EMPLOYEE_IN_SESSION",employee);
+        UserContext.setEmployeeSession(employee);
+        //session.setAttribute("EXPRESSION_IN_SESSION",mapper.selectExpressionsByEmployeeId(employee.getId()));
+        UserContext.setExpressionSession(mapper,employee);
     }
 }

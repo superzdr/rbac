@@ -54,8 +54,8 @@ public class EmployeeController {
     public String input(Model model,Long id){
         if(id != null){
             Employee employee = service.get(id);
-            System.out.println(employee.getRoles());
-            System.out.println("-------------------------------------");
+            //System.out.println(employee.getRoles());
+            //System.out.println("-------------------------------------");
             model.addAttribute("entity",employee);
         }
         model.addAttribute("depts",departmentService.listAll());
@@ -65,8 +65,8 @@ public class EmployeeController {
 
     @RequestMapping("/saveOrUpdate")
     public String saveOrUpdate(Model model,Employee employee,Long[] ids){
-        System.out.println(employee);
-        System.out.println(Arrays.toString(ids));
+        //System.out.println(employee);
+        //System.out.println(Arrays.toString(ids));
         service.saveOrUpdate(employee);
 
         if(employee.isAdmin()){

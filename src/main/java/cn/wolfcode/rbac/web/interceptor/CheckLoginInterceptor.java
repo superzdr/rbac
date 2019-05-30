@@ -1,6 +1,7 @@
 package cn.wolfcode.rbac.web.interceptor;
 
 import cn.wolfcode.rbac.domain.Employee;
+import cn.wolfcode.rbac.util.UserContext;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
 import javax.servlet.http.HttpServletRequest;
@@ -12,7 +13,8 @@ import javax.servlet.http.HttpServletResponse;
 public class CheckLoginInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        Employee employeeInSession = (Employee) request.getSession().getAttribute("EMPLOYEE_IN_SESSION");
+        //Employee employeeInSession = (Employee) request.getSession().getAttribute("EMPLOYEE_IN_SESSION");
+        Employee employeeInSession = UserContext.getEmployeeInSession();
         if(employeeInSession == null){
             response.sendRedirect("/login.jsp");
             return false;

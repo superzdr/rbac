@@ -3,8 +3,8 @@ package cn.wolfcode.rbac.domain;
 import lombok.*;
 
 @Getter @Setter @NoArgsConstructor @AllArgsConstructor @ToString
-public class Permission {
-    private Long id;
+public class Permission extends Basement{
+    //private Long id;
 
     private String name;
 
